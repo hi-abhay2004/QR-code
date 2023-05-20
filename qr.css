@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 body{
@@ -13,39 +16,38 @@ footer{
   
 }
 #base{
-  width: 400px;
-  height: 600px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 19%);
+  width: 345px;
+  height: 540px;
   background-color: white;
-  margin: auto;
-  margin-top: 1cm;
-  border-radius: 20px;
+  border-radius: 16px;
+  box-shadow:2px 2px 20px 7px hsla(217, 45%, 22%, 0.137);
 }
 img{
-  height: 350px;
-  width: 350px;
-  position: absolute;
-  top: 1.7cm;
-  left: 15.7cm;
-  border-radius: 20px;
+    
+  width: 309px;
+  margin-left: 5%;
+  margin-top: 15px;
+  height: 302px;
+  border-radius: 10px;
 }
-p{
+h2{
   font-family: 'Outfit', sans-serif;
   font-family: 'Roboto Slab', serif;
-  font-weight: 700;
-  font-size: 25px;
-  position: absolute;
-  top: 10.7cm;
-  left:16.5cm;
+  font-weight:700;
+  color: hsl(218, 44%, 22%);
+  padding-left:3px;
   text-align: center;
 }
 #info{
   font-family: 'Outfit', sans-serif;
   font-family: 'Roboto Slab', serif;
-  font-weight: 400;
-  font-size: 15px;
-  position: absolute;
-  top: 13cm;
-  left: 17cm;
-  opacity: 0.4;
+  opacity: 50%;
+  color: hsl(218, 44%, 22%);
+  padding-left: 45px;
+  padding-right: 40px;
   text-align: center;
 }
